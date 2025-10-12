@@ -1,0 +1,42 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+}
+
+img{
+    margin-top: 15vh;
+}
+
+img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+img:active{
+    transform: scale(.99);
+}
+
+#score{
+    font-size: 2em;
+}
+
+button{
+    display: inline-block;
+    background-color: hsl(182, 88%, 41%);
+    font-size: 2em;
+    border-radius: 10px;
+    box-shadow: 2px 5px black;
+}
+
+button:hover{
+    background-color: hsl(182, 88%, 51%);
+    cursor: pointer;
+}
+
+#timer{
+    font-size: 2em;
+}
+#finalScore{
+    font-size: 2em;
+}
