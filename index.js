@@ -35,6 +35,7 @@ function reset() {
     clearInterval(intervalId);
     time = 60;
     finalScore.textContent = "";
+    startedGame = false;
 }
 
 function update() {
